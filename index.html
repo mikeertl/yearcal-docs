@@ -34,6 +34,7 @@
       <ul>
         <li><a href="#introduction">Introduction</a></li>
         <li><a href="#design">Design</a></li>
+        <li><a href="#privacy">Privacy Policy</a></li>
       </ul>
     </div>
   </div>
@@ -44,16 +45,20 @@
     <hr class="bv-sub-heading-divider no-print" />
     <h2>Introduction</h2>
     <p>
-      YearCal is a website that can be used as an offline app on a mobile device to display your Google Calendars.
-      It is located here
+      Year Cal is a website that can be used as an offline app on a mobile device to display your Google Calendars.
+      It is located here:
     </p>
-    <ul>
-      <li>
-        <a href="https://yearcal.netlify.app/" target="_blank">
-          <b>Year Cal website (yearcal.netlify.app) </b>
-        </a>
-      </li>
-    </ul>
+    <div class="bv-center-div">
+      <a href="https://yearcal.netlify.app/" target="_blank">
+        <b>Year Cal website (yearcal.netlify.app) </b>
+      </a>
+    </div>
+    <p>
+      Add it to your home page and it will behave like an App. Calendar events are stored on your device so that it will work off-line.
+    </p>
+    <div class="well">
+      Year Cal was designed to solve the problem of being able to do year planning on any device including a mobile phone. That is to say scanning the whole year at a glance for events coming up. A design principle is that when the days are stacked up, whether or not the days have event in, they appear so that from a glance the distance between the thin rectangles is always proportional to the time between the events. The App shows a full year (or just over) of events and the entire year can be scrolled in under a second. The Day boxes always show all events, you will never see <b> ...more events </b> instead the Day box (and hence week line) simply becomes taller. The thin rectangles representing the days however remain the same size and indicate with colours whether one or more events in that calendar exist in that day - provided you opted to show colour rectangles for that calendar.
+    </div>
   </div>
 
   <!-- ============================ SECTION BREAK ============================ -->
@@ -73,13 +78,13 @@
     <figcaption> Year Cal on a medium device showing the 7 day layout</figcaption>
 
     <p>
-      YearCal was designed to display just over one year of events in a single page that can be scrolled up and down. In a sense each time you look at it is like having a new physical diary on the 1st January where there are 53 weeks available in the future to look at and plan.
+      Year Cal was designed to display just over one year of events in a single page that can be scrolled up and down. In a sense each time you look at it is like having a new physical diary on the 1st January where there are 53 weeks available in the future to look at and plan.
     </p>
     <p>
       Today is always on the top of the screen, <b> this app is not designed to look back in time. </b> 
     </p>
     <p>
-      In these examples the grey events are deemed important enough to show in the day box but not when looking at the whole year. So this is why there are no grey items in the thin rectangles. Birthdays and other anniversaries are in a red google calendar. These you want to see when planning so for example the <b> Valentine </b> item is both shown in the boxes and the thin coloured rectangles.
+      In these examples the grey events are deemed important enough to show in the day box but not when looking at the whole year. So this is why there are no grey items in the thin rectangles. Birthdays and other anniversaries are in a red google calendar. These you want to see when planning so for example the <b> Valentine </b> item is both shown in the boxes and the thin coloured rectangle.
     </p>
     <p>
       Unlike any other electronic calendar, you are able to scroll from today to this day next year, seeing <b> all </b> the events inbetween in a fraction of a second, and furthermore they remain visible the whole time.
@@ -93,12 +98,29 @@
     <ul>
       <li>Show all events in a day without elipses</li>
       <li>The same display is used from mobile to desktop with a cunning splitting of the week into weekdays and weekend for small devices</li>
-      <li>The 5/2 split enables a readable month view on small phones while seeing events in their place - a unique feature of YearCal</li>
+      <li>The 5/2 split enables a readable month view on small phones while seeing events in their place - a unique feature of Year Cal</li>
+      <li>In 5/2 mode the thin colour rectangles are in 7 day mode - so you still see them when viewing months at a time</li>
       <li>Choose whether to show events from a calendar or not, OR to only show them in the day box but not the mini rectangle</li>
     </ul>
   </div>
 
   <!-- ============================ SECTION BREAK ============================ -->
+
+  <div id="privacy">
+    <hr class="bv-sub-heading-divider no-print" />
+    <h2>Privacy Policy</h2>
+    <p>
+      Year Cal needs access to your Google Calendar events using the secure Google API. The calendars and calendar events are stored in <i> local storage </i> which is an area of memory maintained by the browser. This data remains with the device and can be removed from Settings with the option <b> Clear all data </b>.
+    </p>
+    <p>
+      It is important to say that the only place your calendars exist are in Google Servers (as they were before) and on your device's browser storage. <b> Year Cal </b> is a static website, in other words a program that runs on <b> your browser </b> and not in the cloud. This Google data (calendar events) is <b> NOT </b> sent anywhere outside of your browser.
+    </p>
+  </div>
+
+  <!-- ============================ SECTION BREAK ============================ -->
+
+  <hr class="bv-sub-heading-divider no-print" />
+
 </body>
 
 </html>
