@@ -1,0 +1,13 @@
+{
+  "workbench.colorTheme": "Default Light+",
+  "workbench.colorCustomizations": {
+    "[Default Light+]": {
+        "editor.background" : "#f8f8f8",
+        "sideBar.background": "#d59cf0",
+        "sideBar.foreground":"#250000de"
+      }
+  },
+  "markdown.styles": [
+    "https://cdn.jsdelivr.net/gh/dhdhagar/vscode-md-preview-light/style.min.css"
+  ]  
+}
