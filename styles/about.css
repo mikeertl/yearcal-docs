@@ -2,6 +2,8 @@ body {
   max-width: 900px;
   /* width: fit-content; */
   margin: 0 auto;
+  padding-left: 4px;
+  padding-right: 4px;
 }
 
 html { 
